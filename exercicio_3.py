@@ -28,7 +28,6 @@ Digite a sua segunda lista (separando os números por vírgula): 9, 9, 9, 30
 Resposta:
 Ambas
 """
-
 # Código para pegar as listas de input
 primeira_lista = [*map(int, input("Digite a sua primeira lista (separando os números por vírgula): ").split(","))]
 segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os números por vírgula): ").split(","))]
