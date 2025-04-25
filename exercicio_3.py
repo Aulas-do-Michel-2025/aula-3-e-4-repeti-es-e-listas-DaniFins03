@@ -49,4 +49,4 @@ if maior_2 > maior_1:
     print ("Segunda")
 
 if maior_1 == maior_2: 
-    print ("Ambos")
+    print ("Ambas")
