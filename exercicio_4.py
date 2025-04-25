@@ -44,9 +44,8 @@ for i in range (len(lista_de_organismos)):
     soma = 0 
     for leitura in lista_de_organismos [i]:
         soma = soma + leitura
-        media = soma / len(organismo)  
-
-if media > maior_media:
+    media = soma / len(organismo)  
+    if media > maior_media:
         maior_media = media
         posicao_maior = i 
 
